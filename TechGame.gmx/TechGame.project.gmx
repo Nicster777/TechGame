@@ -7,14 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
-    <sprite>sprites\sprWall</sprite>
+    <sprite>sprites\sprGround</sprite>
     <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scrGenerate.gml</script>
+    <script>scripts\scrRender.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\oPlayer</object>
-    <object>objects\oWall</object>
+    <object>objects\oGenerate</object>
+    <objects name="Ground Blocks">
+      <object>objects\oGround</object>
+      <object>objects\oGrass</object>
+      <object>objects\oDirt</object>
+      <object>objects\oStone</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rPlay</room>

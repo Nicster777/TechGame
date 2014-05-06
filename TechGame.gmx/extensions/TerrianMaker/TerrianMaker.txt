@@ -1,0 +1,8 @@
+generateChunk() = Generates a chunk of land. Argument 0 is Max Height, Argument 2 is Min Height. 
+Argument 3 and 4 is materials(Dirt,Stone).
+
+chunkRender() = Speeds up game by only making what the user sees. Argument 0 is the safe object,
+ that will always be there.
+
+
+Call both functions in the step event of a "Generate' object.
