@@ -57,8 +57,8 @@ canCreate = true;
           <argument>
             <kind>1</kind>
             <string>// get player's input
-keyRight = keyboard_check(vk_right)
-keyLeft = -keyboard_check(vk_left)
+keyRight = keyboard_check(ord("D"))
+keyLeft = -keyboard_check(ord("A"))
 keyJump = keyboard_check_pressed(vk_space);
 
 // react to inputs
